@@ -11,7 +11,7 @@ COPY mutant-app ./mutant-app
 COPY mutant-contract ./mutant-contract
 COPY mutant-domain ./mutant-domain
 #run the command to build .jar file
-RUN mvn clean install dependency:copy-dependencies
+RUN mvn package
 
 # More information: https://hub.docker.com/_/openjdk
 FROM openjdk:11-jre-slim
