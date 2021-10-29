@@ -3,9 +3,9 @@
 - Devuelve estadisticas de las verificaciones
 ## Arquetipo de la API
 La Api consta de 3 módulos:
-- mutant-contract: contienen los DTOs de la API
-- mutant-domain: corazón principal de la API con los servicios, repository, model etc.
-- mutant-app: capa HTTP con los controladores, hadle exceptions, swagger config
+- **mutant-contract:** contienen los DTOs de la API
+- **mutant-domain:** corazón principal de la API con los servicios, repository, model etc.
+- **mutant-app:** capa HTTP con los controladores, hadle exceptions, swagger config
 
 ## End points:
 **POST to /api/mutant/**
