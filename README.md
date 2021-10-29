@@ -15,7 +15,7 @@ En caso de verificar un mutante, debería devolver un HTTP 200-OK, en caso contr
 **GET to /api/mutant/stats**
 
 devuelva un Json con las estadísticas de las
-verificaciones de ADN: {“count_mutant_dna”:40, “count_human_dna”:100: “ratio”:0.4}
+verificaciones de ADN: {“count_mutant_dna”:4, “count_human_dna”:10: “ratio”:0.4}
 
 
 ## Ejecucion local:
